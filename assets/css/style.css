@@ -24,6 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
+    color: var(--appVeryDarkDesaturated);
  
 
 }
@@ -83,6 +84,28 @@ hr{
     height: 1px;
     border: none;
     background: var(--appDarkGray);
+    opacity: 0.3;
     
 }
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.details div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.details p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--appDarkGray);
+}
+
+
 
