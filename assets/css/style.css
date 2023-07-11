@@ -25,6 +25,7 @@ body{
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
     color: var(--appVeryDarkDesaturated);
+    position: relative;
  
 
 }
@@ -32,6 +33,7 @@ main{
     max-width: 360px;
     background: var(--appBackgroundPrincipal);
     border-radius: 15px;
+    position: relative;
     
 }
 
@@ -106,6 +108,19 @@ hr{
     letter-spacing: 2px;
     color: var(--appDarkGray);
 }
+.top{
+    position: absolute;
+    z-index: -50;
+    top: -200%;
+    left: -220%;
+    
+}
+.bottom{
+    position: absolute;
+    z-index: -50;
+    bottom:  -200%;
+    right: -220%;
 
+}
 
 
