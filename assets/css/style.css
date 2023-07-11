@@ -5,7 +5,8 @@
     --appDarkCyan: hsl(185, 75%, 39%);
     --appVeryDarkDesaturated: hsl(229, 23%, 23%);
     --appDarkGrayish : hsl(227, 10%, 46%);
-    --appDarkGray: hsl(0, 0%, 59%)
+    --appDarkGray: hsl(0, 0%, 59%);
+    --appBackgroundPrincipal: #ffffff
 
 }
 
@@ -14,3 +15,74 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--appDarkCyan);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+ 
+
+}
+main{
+    max-width: 360px;
+    background: var(--appBackgroundPrincipal);
+    border-radius: 15px;
+    
+}
+
+.background img{
+    border-radius: 15px  15px 0 0;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0;
+    text-align: center;
+}
+.avatar{
+    background: var(--appBackgroundPrincipal);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    
+}
+
+.avatar img{
+    border-radius: 50%;
+    width: 90%;
+}
+.dates{
+    padding-top: 40px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.age{
+    font-weight: 500;
+    color: var(--appDarkGrayish);
+}
+.profile p{
+    color: var(--appDarkGrayish);
+
+}
+hr{
+    height: 1px;
+    border: none;
+    background: var(--appDarkGray);
+    
+}
+
