@@ -8,3 +8,9 @@
     --appDarkGray: hsl(0, 0%, 59%)
 
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
